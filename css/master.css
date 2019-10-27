@@ -1,0 +1,47 @@
+*{
+  font-family: 'Manjari', sans-serif;
+}
+.escrito{
+  font-family: 'Dancing Script', cursive;
+}
+a{
+  text-decoration: none !important;
+  color: inherit !important;
+}
+.hero{
+  /* height: 95vh; */
+  /* background-image: url('../images/222.jpg'); */
+  color:#F0DDB5 !important;
+  background-size: 100% auto;
+  background-repeat: no-repeat;/*para que no se repita*/
+  background-position: center;
+}
+footer{
+  background-color: #ffe16b !important;
+}
+
+.progress{
+  /* background-color: transparent !important; */
+  background-color: #2C2A2B;
+  /* border: 1px solid #F0DDB5; */
+  /* border: 1px solid #0e141f; */
+
+}
+.progress-bar{
+  /* background-color: #0e141f; */
+  background-color:#ffe16b;
+  color:  #0e141f;
+}
+
+
+.footer-copyright{
+    color:#F0DDB5 !important;
+  background-color: #343233 !important;
+}
+.servicios{
+  background-color: #ffe16b !important;
+  color: #343233 !important;
+}
+.social-net{
+  font-size: 25pt;
+}
