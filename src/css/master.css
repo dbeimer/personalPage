@@ -1,3 +1,14 @@
+:root{
+  --color-primary: #ffe16b;
+  --text-primary: #000;
+  --bg-primary: hsla(0,0%,100%,.32)!important;
+}
+
+[data-theme="dark"]{
+  --text-primary: #fff;
+  --bg-primary: hsla(0,0%,10%,.32)!important;
+}
+
 *{
   font-family: 'Manjari', sans-serif;
 }
@@ -17,7 +28,8 @@ a{
   background-position: center;
 }
 footer{
-  background-color: #ffe16b !important;
+  background-color: var(--color-primary);
+  color: var(--color-gray-8);
 }
 
 .progress{
@@ -35,8 +47,8 @@ footer{
 
 
 .footer-copyright{
-    color:#F0DDB5 !important;
-  background-color: #343233 !important;
+    color: var(--color-gray-8);
+  background-color:var(--color-primary);
 }
 .servicios{
   background-color: #ffe16b !important;
@@ -44,4 +56,66 @@ footer{
 }
 .social-net{
   font-size: 25pt;
+}
+
+.icon:hover{
+  cursor: pointer ;
+  color: var(--bs-body-color);
+}
+
+.menu{
+  background-color:var(--bg-primary);
+  position: fixed;
+  top: 0;
+  left: -50%;
+  width: 50%;
+  height: 100%;
+  backdrop-filter: blur(0.5rem);
+  transition: left .5s;
+}
+.menu ul li{
+  list-style: none;
+  padding: 10px 0;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-align:left;
+}
+
+.menu ul li:hover{
+  border-bottom: 1px solid hsla(0,0%,0%,.5);
+}
+
+.menu.show{
+  left: 0;
+}
+
+.plant-tarjet{
+  width:300px;
+  /* border: 1px solid; */
+ margin-bottom:100px; 
+ /* padding:20px; */
+ margin-left:auto;
+margin-right:auto;
+border-radius:7px;
+/* background:#cd9ef7; */
+box-shadow: 0px 0px 10px #cd9ef7;
+}
+
+/* nav-bar */
+.nav-bar{
+  background-color:var(--bg-primary);
+  backdrop-filter: blur(0.5rem);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+
+}
+
+.nav-bar .brand{
+  font-size: 1.3rem;
+  /* font-weight: bold; */
+  text-align: center;
+  cursor: pointer;
 }

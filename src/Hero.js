@@ -3,7 +3,7 @@ import perfil from "./images/perfil.jpeg";
 
 export default function Hero() {
   return (
-    <section className="hero d-flex align-items-center bg-dark text-white">
+    <section className="hero d-flex align-items-center bg-dark text-white mt-5">
       <div className="container">
         <div className="row">
           <div className="col-lg-3 text-center">

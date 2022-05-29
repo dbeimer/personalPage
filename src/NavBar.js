@@ -8,7 +8,7 @@ export default function NavBar() {
           Beimer Campos
         </a>
         <button
-          class="navbar-toggler"
+          className="navbar-toggler"
           type="button"
           data-toggle="collapse"
           data-target="#navbarNavAltMarkup"
@@ -29,7 +29,11 @@ export default function NavBar() {
             <a class="nav-item nav-link" href="#courses">
               Cursos & Diplomas
             </a>
-            <a class="nav-item nav-link" href="https://medium.com/@dbeimer">
+            <a
+              class="nav-item nav-link"
+              target="_blank"
+              href="https://medium.com/@dbeimer"
+            >
               Blog
             </a>
             <a class="nav-item nav-link" href="#contacto">
